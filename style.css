@@ -20,6 +20,10 @@ html, body {
      -moz-text-size-adjust: none;
       -ms-text-size-adjust: none;
           text-size-adjust: none;
+  background-image: url("img/banner_fhd.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
   background-color: #FFCA28;
 }
 
@@ -54,7 +58,7 @@ img {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  background-color: #FFCA28;
+  background-color: #281643;
 }
 
 .app .avatar {
@@ -72,6 +76,7 @@ img {
   font-family: 'Caveat', cursive;
   font-size: 2.3rem;
   letter-spacing: 0.16rem;
+  color: #e8e8e8;
   margin: 0.5rem 0;
 }
 
@@ -102,7 +107,7 @@ img {
   list-style: none;
   width: 14.4rem;
   height: 2.6rem;
-  border: 0.1rem solid #333;
+  border: 0.1rem solid #e8e8e8;
   margin-bottom: 0.84rem;
 }
 
@@ -110,6 +115,7 @@ img {
   font-family: 'Roboto Mono', monospace;
   font-size: 1rem;
   text-decoration: none;
+  color: #e8e8e8;
   width: 100%;
   height: 100%;
   display: -webkit-box;
@@ -124,17 +130,11 @@ img {
 }
 
 .app ul li:hover {
-  background-color: #333;
+  background-color: #3e2269;
 }
 
 .app ul li:hover a {
   color: white;
-}
-
-.app .author {
-  font-family: sans-serif;
-  font-size: 0.7rem;
-  margin-bottom: 0.84rem;
 }
 
 @media screen and (min-width: 1025px) {
