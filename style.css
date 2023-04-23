@@ -21,6 +21,7 @@ html, body {
       -ms-text-size-adjust: none;
           text-size-adjust: none;
   background-image: url("img/banner_fhd.png");
+  object-fit: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
