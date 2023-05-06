@@ -1,3 +1,4 @@
+/* linktree.html */
 @import url("https://fonts.googleapis.com/css2?family=Caveat&family=Roboto+Mono&display=swap");
 *, *:before, *:after {
   margin: 0;
@@ -157,3 +158,13 @@ img {
     margin-bottom: 0.3rem;
   }
 }
+
+/* pc-setup.html */
+
+.kitco { 
+  width: 50%;
+  height: 95%;
+  max-height: 95%;
+  max-width: 50%;
+  border: none;
+} 
